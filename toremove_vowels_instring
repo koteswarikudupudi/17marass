@@ -1,0 +1,10 @@
+#write a program to remove vowels:a,e,i,o,u
+#input:Aditya Institutions output:dty nstttns
+s=input()
+l=list(s)
+x=[]
+for i in l:
+    if i not in 'aeiouAEIOU':
+        x.append(i)
+for i in x:
+    print(i,end='')        
